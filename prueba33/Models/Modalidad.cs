@@ -3,5 +3,6 @@ namespace prueba33.Models
 {
     public enum Modalidad
     {
+
     }
 }

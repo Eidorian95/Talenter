@@ -6,7 +6,7 @@ namespace prueba33.Models
     {
         public string RazonSocial { get; set; }
         public List<Empleado> Empleados { get; set; }
-        
+
         public Administrador()
         {
         }

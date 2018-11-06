@@ -11,9 +11,6 @@ namespace prueba33.Controllers
     {
         public ActionResult Index()
         {
-
-            User user = new User();
-            
             ViewBag.Title = "Index - Talenter";
 
 
