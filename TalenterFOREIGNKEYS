@@ -1,0 +1,17 @@
+ALTER TABLE dbo.Talento     
+ADD CONSTRAINT FK_IdCurriculum FOREIGN KEY (IdCurriculum)     
+    REFERENCES dbo.Curriculum (IdCurriculum)     
+     
+;    
+
+ALTER TABLE dbo.Talento     
+ADD CONSTRAINT FK_IdRubro FOREIGN KEY (IdRubro)     
+    REFERENCES dbo.Rubro (IdRubro)     
+     
+;    
+
+ALTER TABLE dbo.Empresa     
+ADD CONSTRAINT FK_IdRubro_Empresa FOREIGN KEY (IdRubro)     
+    REFERENCES dbo.Rubro (IdRubro)     
+     
+;    
