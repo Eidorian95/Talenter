@@ -1,10 +1,12 @@
-using System;
-
+﻿using System;
 namespace prueba33.Models
 {
     public enum Rubro
     {
         IT,
         Quimica,
+        Abogacia,
+        Educacion,
+        Medicina,
     }
 }

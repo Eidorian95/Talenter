@@ -1,17 +1,11 @@
 ﻿<Properties StartupConfiguration="{E07A511F-5E00-461A-A8A3-C10591F5554B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Modalidad.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Talento.cs">
     <Files>
-      <File FileName="Views/Web.config" Line="10" Column="96" />
-      <File FileName="Web.config" Line="28" Column="72" />
-      <File FileName="Views/Home/AccountInfo.cshtml" Line="1" Column="1" />
-      <File FileName="Models/User.cs" Line="9" Column="42" />
+      <File FileName="Models/Talento.cs" Line="22" Column="38" />
+      <File FileName="Models/Rubro.cs" Line="10" Column="18" />
+      <File FileName="Models/Empresa.cs" Line="14" Column="34" />
+      <File FileName="Models/CurriculumVitae.cs" Line="11" Column="19" />
       <File FileName="Controllers/HomeController.cs" Line="14" Column="13" />
-      <File FileName="Models/Talento.cs" Line="13" Column="9" />
-      <File FileName="Models/Empleado.cs" Line="10" Column="24" />
-      <File FileName="Models/Administrador.cs" Line="9" Column="9" />
-      <File FileName="Models/CurriculumVitae.cs" Line="9" Column="48" />
-      <File FileName="Models/Busqueda.cs" Line="13" Column="9" />
-      <File FileName="Models/Modalidad.cs" Line="9" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.TalenterIndex PreferredExecutionTarget="MonoDevelop.Default" />

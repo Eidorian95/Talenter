@@ -3,13 +3,12 @@ namespace prueba33.Models
 {
     public class CurriculumVitae
     {
-        public string Estudios { get; set; } //TODO: En un futuro cambiar por una list de Estudio, ya que alguien puede tener muchos estudios
-        public string Experiencia { get; set; } //TODO: Lo mismo que estudios, pero con Experiencia
-        public string Objetivo { get; set; } //TODO: Lo mismo
-        public float Remuneracion { get; set; }
+        public int IdPdf { get; set; }
+        public int IdCurriculum { get; private set; }
 
-        public CurriculumVitae()
+        public CurriculumVitae(int IdPdf)
         {
+            this.IdPdf = IdPdf;
         }
     }
 }
